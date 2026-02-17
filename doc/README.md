@@ -132,3 +132,5 @@ Yearn 主题的配置文件位于 `themes/yearn/_config.yml`。
 请检查 GitHub Actions 页面查看构建日志。常见原因：
 *   文章 Front-matter 格式错误
 *   缺少必要的插件依赖 (尝试运行 `npm install` 修复)
+*   **Pages 服务未开启 (404 错误)**: 请参考 [修复 GitHub Pages 部署错误](fix-pages-404.md)
+*   **样式错乱 (CSS 加载失败)**: 你的博客部署在子路径 (例如 `/chenxq.github.io/`)，请检查 `_config.yml` 中的 `url` 和 `root` 配置是否包含了该子路径。
