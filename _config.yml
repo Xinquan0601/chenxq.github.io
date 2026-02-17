@@ -14,7 +14,8 @@ timezone: Asia/Shanghai
 # URL
 ## 请将下面的 URL 修改为你的 GitHub Pages 地址
 ## 例如: https://username.github.io 或 https://username.github.io/githubblog
-url: https://username.github.io
+url: https://Xinquan0601.github.io/chenxq.github.io
+root: /chenxq.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
