@@ -1,0 +1,63 @@
+# SubNav
+menu:
+  首页: /
+  #关于: /about/
+  标签: /tags/
+  分类: /categories/
+  归档: /archives/
+
+subnav:
+  github: "https://github.com/username"
+  #weibo: "http://weibo.com/"
+  #rss: "/atom.xml"
+  #email: "mailto:your@email.com"
+
+description: 一个关于技术与生活的博客
+
+# SEO
+seo_keywords: hexo,blog,技术,生活
+seo_description: 一个关于技术与生活的博客
+
+favicon: /favicon.ico
+
+# 你的头像url (这里使用一个默认占位符，或 source/images 下的图片)
+avatar: /images/avatar.gif
+
+# 首页左侧边栏背景图片
+# 可配置多个 随机挑选一张
+leftBackground:
+  - https://source.unsplash.com/random/1600x900?nature
+  - https://source.unsplash.com/random/1600x900?city
+  - https://source.unsplash.com/random/1600x900?technology
+
+# 展示更新时间
+display_updated: true
+
+# 文章页的关于转载链接
+copyright_url: https://username.github.io
+
+# 底部的备案信息等
+copyright_date: 2026
+beian_info:
+
+# Online contact
+daovoice: false
+daovoice_app_id:
+
+# Data statistics
+baidu_analytics: false
+baidu_analytics_code:
+
+# Comments
+gitalk: false
+
+# Console
+console: true
+console_color: '#6190e8'
+console_config:
+  - '\n欢迎访问我的博客！\n'
+  - '\n本博客使用 %cHexo%c 搭建，主题为 %chexo-themes-yearn%c\n'
+
+# 长时间未更新的博文显示提醒
+overdue_auto_all: true
+overdue_remind: 本文最后更新于 %d 天前，文中所描述的信息可能已发生改变。
